@@ -6,7 +6,7 @@
 
 **公榜 A 排名：** 31/1470
 
-**私榜 A 排名:   ** 33/1470
+**私榜 A 排名: ** 33/1470
 
 Code Repo: https://github.com/AshinWang/tianchi-competition-5-manipulation-detection/
 
