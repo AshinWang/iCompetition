@@ -4,9 +4,9 @@
 
 队伍名称： 猛狗哭泣
 
-公榜 A 排名： 31/1470
+终榜排名： 21/1470
 
-私榜 A 排名:    33/1470
+公榜排名： 31/1470
 
 Code Repo: https://github.com/AshinWang/tianchi-competition-5-manipulation-detection/
 
@@ -143,6 +143,8 @@ Backbone = efficientnetb3
 | MobileNet    | 'mobilenet' 'mobilenetv2'                                    |
 | EfficientNet | 'efficientnetb0' 'efficientnetb1' 'efficientnetb2' 'efficientnetb3' 'efficientnetb4' 'efficientnetb5' efficientnetb6' efficientnetb7' |
 
+> 基于 ImageNet 的模型，进行迁移学习。
+>
 > All backbones have weights trained on 2012 ILSVRC ImageNet dataset (`encoder_weights='imagenet'`).
 
 
