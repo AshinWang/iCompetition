@@ -1,19 +1,38 @@
 # [2021全国数字生态创新大赛-智能算法赛](https://tianchi.aliyun.com/competition/entrance/531860/information)
 
-## 参考
+## 个人方案
 
-- [Pytorch Unet模型 线上0.345](https://tianchi.aliyun.com/notebook-ai/detail?spm=5176.12586969.1002.3.6cc26423NfwOf3&postId=169396)
-- [efficientUnet++ 线上38.51方案开源(单模，无TTA)](https://tianchi.aliyun.com/forum/postDetail?spm=5176.12586969.1002.24.6cc26423NfwOf3&postId=170236)
+### 1、数据增强
+
+1. 将训练集划分80%为训练集，20%为测试集。
+2. RGB 三通道读入，采用 `垂直和翻转` 扩充训练集。
+
+### 2、训练模型
+
+1. 模型：采用 UnetPlusPlus + EfficientNet-B6
+
+2. optimizer: `torch.optim.AdamW(model.parameters(),lr=0.0005)`
+
+3. loss： DiceLoss + SoftCrossEntropyLoss
+```python
+DiceLoss_fn = DiceLoss(mode='multiclass')
+SoftCrossEntropy_fn = SoftCrossEntropyLoss(smooth_factor=0.1)
+loss_fn = L.JointLoss(first=DiceLoss_fn, second=SoftCrossEntropy_fn,first_weight=0.5, second_weight=0.5).to(DEVICE)
+```
+
+### 3、推理 TTA
+
+ TTA 单模 0.3821 
+
+ `tta_model = tta.SegmentationTTAWrapper(model, tta.aliases.d4_transform(), merge_mode='mean')`
 
 
 
-基于上述两个开源 Baseline，采用 UnetPlusPlus + EfficientNet-B6 + TTA 单模 0.3821
-
-
+# 赛题与背景
 
 > 以下转载官网
 
---------------
+------
 
 ## 数据集
 
