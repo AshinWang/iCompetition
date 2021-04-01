@@ -2,7 +2,7 @@
 
 ## 2021-04-01
 
-[CVPR2021 安全AI挑战者计划第六期：ImageNet无限制对抗攻击](./CVPR2021 安全AI挑战者计划第六期：ImageNet无限制对抗攻击) **(Rank: 63/1557)**
+[CVPR2021 安全AI挑战者计划第六期：ImageNet无限制对抗攻击](https://github.com/AshinWang/iCompetition/tree/master/2021%E5%85%A8%E5%9B%BD%E6%95%B0%E5%AD%97%E7%94%9F%E6%80%81%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B-%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E8%B5%9B) **(Rank: 63/1557)**
 
 ## 2021-03-05
 
