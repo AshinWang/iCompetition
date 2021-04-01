@@ -2,6 +2,8 @@
 
 ## 2021-04-01
 
+[全球人工智能技术创新大赛赛道三： 小布助手对话短文本语义匹配](./全球人工智能技术创新大赛赛道三： 小布助手对话短文本语义匹配) **(LGBM 0.8)**
+
 [CVPR2021 安全AI挑战者计划第六期：ImageNet无限制对抗攻击](https://github.com/AshinWang/iCompetition/tree/master/CVPR2021%20%E5%AE%89%E5%85%A8AI%E6%8C%91%E6%88%98%E8%80%85%E8%AE%A1%E5%88%92%E7%AC%AC%E5%85%AD%E6%9C%9F%EF%BC%9AImageNet%E6%97%A0%E9%99%90%E5%88%B6%E5%AF%B9%E6%8A%97%E6%94%BB%E5%87%BB) **(Rank: 63/1557)**
 
 ## 2021-03-05
