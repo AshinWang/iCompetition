@@ -31,7 +31,7 @@
 
 初赛采用的模型包括 Inceptionv3、VGG16、EfficientNet、ResNet 等，主要在这三开源库「  [advertorch](https://github.com/BorealisAI/advertorch)」、「[auto-attack](https://github.com/fra31/auto-attack)」、「[adversarial-attacks-pytorch](https://github.com/Harry24k/adversarial-attacks-pytorch)」进行了不同分类模型和攻击方法的组合。
 
-最终我们采用带有对抗训练的  `('efficientnet-b6', advprop=True)` 作为分类模型的 Backbone，采用  [advertorch](https://github.com/BorealisAI/advertorch) 中的 `LinfPGDAttack`，扰动 `16/255`，迭代 40 次，扰动 `32/255`，迭代 50 次。在 `Colab Tesla V100 16G` 大概需要 14 小时，由于 Colab 的时长限制，在 63% 时断开过一次，我们等了一天再接着生成剩下的对抗样本。
+整个比赛在 [Colab](https://colab.research.google.com/) 上进行，考虑时间成本，最终采用带有对抗训练的  `('efficientnet-b6', advprop=True)` 作为分类模型的 Backbone，采用  [advertorch](https://github.com/BorealisAI/advertorch) 中的 `LinfPGDAttack`，扰动 `16/255`，迭代 40 次，扰动 `32/255`，迭代 50 次。在 `Colab Tesla V100 16G` 大概需要 14 小时，由于 Colab 的时长限制，在 63% 时断开过一次，我们等了一天再接着生成剩下的对抗样本。
 
 ![](./img/adv_demo.png)
 
