@@ -4,7 +4,7 @@
 
 [全球人工智能技术创新大赛赛道三： 小布助手对话短文本语义匹配](https://github.com/AshinWang/iCompetition/tree/master/%E5%85%A8%E7%90%83%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8A%80%E6%9C%AF%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B%E8%B5%9B%E9%81%93%E4%B8%89%EF%BC%9A%20%E5%B0%8F%E5%B8%83%E5%8A%A9%E6%89%8B%E5%AF%B9%E8%AF%9D%E7%9F%AD%E6%96%87%E6%9C%AC%E8%AF%AD%E4%B9%89%E5%8C%B9%E9%85%8D) **(LGBM 0.8)**
 
-[CVPR2021 安全AI挑战者计划第六期：ImageNet无限制对抗攻击](https://github.com/AshinWang/iCompetition/tree/master/CVPR2021%20%E5%AE%89%E5%85%A8AI%E6%8C%91%E6%88%98%E8%80%85%E8%AE%A1%E5%88%92%E7%AC%AC%E5%85%AD%E6%9C%9F%EF%BC%9AImageNet%E6%97%A0%E9%99%90%E5%88%B6%E5%AF%B9%E6%8A%97%E6%94%BB%E5%87%BB) **(Rank: 63/1557)**
+[CVPR2021 安全AI挑战者计划第六期：ImageNet无限制对抗攻击](https://github.com/AshinWang/iCompetition/tree/master/CVPR2021%20%E5%AE%89%E5%85%A8AI%E6%8C%91%E6%88%98%E8%80%85%E8%AE%A1%E5%88%92%E7%AC%AC%E5%85%AD%E6%9C%9F%EF%BC%9AImageNet%E6%97%A0%E9%99%90%E5%88%B6%E5%AF%B9%E6%8A%97%E6%94%BB%E5%87%BB) **(Rank: 56/1557)**
 
 ## 2021-03-05
 
